@@ -1,0 +1,66 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Mohammad Sadegh Samie
+  given: Mohammad Sadegh
+  family: Samie
+  alternate: ''
+  pronunciation: ''
+  pronouns: he/him
+
+postnominals:
+  - PhD
+
+status:
+  icon: "🔬"
+
+role: Postdoctoral Researcher
+
+bio: |
+  I am a Postdoctoral Researcher in the Henderson Lab at Syracuse University, 
+  specializing in molecular dynamics simulations and polymer physics. My research 
+  focuses on understanding the self-assembly behavior of block copolymer systems 
+  using computational approaches.
+
+affiliations:
+  - name: Syracuse University
+    url: https://www.syracuse.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:msamie@syr.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/mssamie
+
+interests:
+  - Molecular Dynamics Simulations
+  - Polymer Physics
+  - Block Copolymer Self-Assembly
+  - Computational Materials Science
+
+skills:
+  - name: Computational Tools
+    items:
+      - label: GROMACS
+        level: 5
+      - label: VMD
+        level: 5
+      - label: LAMMPS
+        level: 4
+  - name: Programming
+    items:
+      - label: Python
+        level: 4
+      - label: MDAnalysis
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+    label: Fluent
+  - name: Persian
+    level: 5
+    label: Native
