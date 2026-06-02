@@ -10,19 +10,19 @@ name:
   pronunciation: ''
   pronouns: he/him
 
-postnominals:
-  - PhD
+postnominals: []
 
 status:
-  icon: "🔬"
+  icon: microscope
 
-role: Postdoctoral Researcher
+role: PhD Student in Biomedical and Chemical Engineering
 
 bio: |
-  I am a Postdoctoral Researcher in the Henderson Lab at Syracuse University, 
-  specializing in molecular dynamics simulations and polymer physics. My research 
-  focuses on understanding the self-assembly behavior of block copolymer systems 
-  using computational approaches.
+  I am a PhD student in Biomedical and Chemical Engineering at Syracuse University,
+  where my primary adviser and PI is Dr. Radhakrishna Sureshkumar and my co-adviser
+  is Dr. James Henderson. My research uses coarse-grained molecular dynamics to study
+  polymer and surfactant self-assembly, with a focus on amphiphilic copolymer systems,
+  micelles, vesicles, and the molecular mechanisms that drive morphology evolution.
 
 affiliations:
   - name: Syracuse University
@@ -34,12 +34,18 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/mssamie
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=KZJ_MI0AAAAJ&hl=en
+  - icon: link
+    url: https://henderson.syr.edu/people/
+    label: Henderson Lab Profile
 
 interests:
-  - Molecular Dynamics Simulations
-  - Polymer Physics
-  - Block Copolymer Self-Assembly
-  - Computational Materials Science
+  - Coarse-Grained Molecular Dynamics
+  - Polymer and Surfactant Self-Assembly
+  - Block Copolymer Vesicles and Micelles
+  - MARTINI Force Field Modeling
+  - Computational Soft Matter
 
 skills:
   - name: Computational Tools
@@ -48,13 +54,23 @@ skills:
         level: 5
       - label: VMD
         level: 5
-      - label: LAMMPS
+      - label: MARTINI 3
+        level: 4
+      - label: Polyply
         level: 4
   - name: Programming
     items:
       - label: Python
         level: 4
       - label: MDAnalysis
+        level: 4
+      - label: MATLAB
+        level: 4
+  - name: Workflow and Analysis
+    items:
+      - label: HTCondor
+        level: 4
+      - label: OriginLab
         level: 4
 
 languages:

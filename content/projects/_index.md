@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Research projects centered on coarse-grained molecular dynamics, polymer self-assembly, and simulation analysis workflows.
       filters:
         folders:
           - projects
