@@ -28,23 +28,23 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
-          package_json_path: templates/academic-cv/package.json
+          package_json_file: package.json
           run_install: false
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: '1.21'
 
@@ -69,7 +69,7 @@ jobs:
           pnpm dlx hugoblox@latest upgrade $FLAGS
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore(deps): upgrade hugoblox modules"
@@ -87,6 +87,7 @@ jobs:
           branch: "chore/upgrade-hugoblox"
           delete-branch: true
           base: main
+          draft: always-true
           labels: |
             dependencies
             automated-pr
