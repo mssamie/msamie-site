@@ -12,14 +12,14 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: Research projects centered on coarse-grained molecular dynamics, polymer self-assembly, and simulation analysis workflows.
+      text: Peer-reviewed work and research materials cleared for public sharing.
       filters:
         folders:
           - projects
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 1
       show_date: false
       show_read_time: false
       show_read_more: false
