@@ -65,5 +65,6 @@ Desktop.ini
 # Logs & Temporary Files
 # ============================================================================
 
+tmp/
 *.log
 npm-debug.log*

@@ -15,14 +15,14 @@ postnominals: []
 status:
   icon: microscope
 
-role: PhD Student in Biomedical and Chemical Engineering
+role: PhD Candidate in Biomedical and Chemical Engineering
 
 bio: |
-  I am a PhD student in Biomedical and Chemical Engineering at Syracuse University,
-  where my primary adviser and PI is Dr. Radhakrishna Sureshkumar and my co-adviser
-  is Dr. James Henderson. My research uses coarse-grained molecular dynamics to study
-  polymer and surfactant self-assembly, with a focus on amphiphilic copolymer systems,
-  micelles, vesicles, and the molecular mechanisms that drive morphology evolution.
+  I am a PhD candidate in Biomedical and Chemical Engineering at Syracuse University,
+  advised by Prof. Radhakrishna Sureshkumar and co-advised by Prof. James Henderson.
+  My research uses coarse-grained molecular dynamics to study polymer and surfactant
+  self-assembly, with a focus on amphiphilic copolymer systems, micelles, vesicles,
+  and the molecular mechanisms that drive morphology evolution.
 
 affiliations:
   - name: Syracuse University

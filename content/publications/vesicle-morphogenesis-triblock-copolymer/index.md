@@ -1,9 +1,9 @@
 ---
 title: "Vesicle Morphogenesis in Amphiphilic Triblock Copolymer Solutions"
 authors:
-  - Senyuan Liu
+  - senyuan-liu
   - me
-  - Radhakrishna Sureshkumar
+  - radhakrishna-sureshkumar
 date: "2024-05-06T00:00:00Z"
 publishDate: "2024-05-06T00:00:00Z"
 
@@ -33,12 +33,13 @@ links:
     url: https://doi.org/10.3390/colloids8030029
 
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Schematic of the published vesicle-formation pathway."
+  focal_point: "Center"
   preview_only: false
 
-projects: []
+projects:
+  - triblock-copolymer-vesicles
 slides: ""
 ---
 
-This paper examines how amphiphilic BAB triblock copolymers self-assemble into vesicles in aqueous solution. The simulations reveal a pathway through transient aggregate networks, cage-like cylindrical micelle structures, and lamellar shells before vesicle closure.
+This paper examines how amphiphilic BAB triblock copolymers self-assemble into vesicles in aqueous solution. The simulations reveal a pathway through a transient interconnected aggregate network, a cage of cylindrical micelles, and a lamellar cage before vesicle closure.
